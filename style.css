@@ -1,0 +1,581 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.f1>img {
+    height: 375px;
+}
+
+.firstdiv {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(30, 57, 50);
+}
+
+.f2 {
+    width: 100%;
+    display: flex;
+    display: inline-block;
+    margin: 0 10px 0 10px;
+
+}
+
+.f2in {
+    text-align: center;
+    padding: 20px 80px 20px 80px;
+}
+
+.f2in>h4 {
+    color: white;
+    font-size: 23px;
+    letter-spacing: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.f2in>p {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    line-height: 36px;
+    letter-spacing: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.order {
+    margin-top: 10px;
+    background-color: rgb(30, 57, 50);
+    border: 1px solid white;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 8px 20px 8px 20px;
+    border-radius: 20px;
+}
+
+.order:hover {
+    background-color: rgb(17, 44, 37);
+}
+
+.logo>img {
+    width: 80px;
+}
+
+.navbar {
+    border-bottom: 1px solid rgb(126, 126, 126);
+    padding: 10px 26px 10px 26px;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    margin-right: 480px;
+
+}
+
+.navclick>a {
+    margin-left: 20px;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.navclick>a:hover {
+    color: rgb(0, 110, 81);
+}
+
+.nav2 {
+    display: flex;
+    align-items: center;
+
+}
+
+.space {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav2pro {
+    display: flex;
+    justify-content: center;
+}
+
+.nav2pro>a {
+    text-decoration: none;
+    color: black;
+    font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.find>a:hover {
+    color: rgb(0, 110, 81);
+}
+
+.nav2pro>button {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px 20px 8px 20px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.nav2pro>button:hover {
+    transition: 0.2s;
+    background-color: rgb(245, 245, 245);
+}
+
+.find {
+    margin-right: 40px;
+}
+
+.blackbu {
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px 20px 8px 20px;
+    border-radius: 20px;
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+}
+
+.blackbu:hover {
+    transition: 0.2s;
+    background-color: rgb(36, 36, 36);
+}
+
+.loc {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.seconddiv {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(235, 129, 165);
+}
+
+.s2>img {
+    height: 558px;
+}
+
+.s2in {
+    text-align: center;
+    padding: 20px 80px 20px 80px;
+}
+
+.s2in>h4 {
+    color: rgb(30, 57, 50);
+    font-size: 48px;
+    letter-spacing: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.s2in>p {
+    color: rgb(30, 57, 50);
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    line-height: 36px;
+    letter-spacing: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.order2 {
+    margin-top: 10px;
+    background-color: rgb(235, 129, 165);
+    border: 1px solid rgb(30, 57, 50);
+    color: rgb(30, 57, 50);
+    font-size: 16px;
+    font-weight: 700;
+    padding: 8px 20px 8px 20px;
+    border-radius: 20px;
+}
+
+.order2:hover {
+    transition: 0.2s;
+    background-color: rgb(215, 125, 155);
+}
+
+.order3:hover {
+    transition: 0.2s;
+    background-color: rgb(220, 233, 107);
+}
+
+.order3 {
+    margin-top: 10px;
+    background-color: rgb(241, 255, 103);
+    border: 1px solid rgb(30, 57, 50);
+    color: rgb(30, 57, 50);
+    font-size: 16px;
+    font-weight: 700;
+    padding: 8px 20px 8px 20px;
+    border-radius: 20px;
+}
+
+.thediv {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(241, 255, 103);
+}
+
+.t2>img {
+    height: 558px;
+}
+
+.t2in {
+    text-align: center;
+    padding: 50px 90px 20px 90px;
+}
+
+.t2in>h4 {
+    margin-bottom: 10px;
+    display: inline-block;
+    color: rgb(30, 57, 50);
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.t2in>p {
+    color: rgb(30, 57, 50);
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    line-height: 36px;
+    letter-spacing: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* --------------------------------------------------------------------------------------- */
+.fo2>img {
+    height: 558px;
+}
+
+.fordiv {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(252, 100, 70);
+}
+
+.fo1 {
+    width: 100%;
+    display: flex;
+    display: inline-block;
+    margin: 0 10px 0 10px;
+
+}
+
+.fo1in {
+    text-align: center;
+    padding: 100px 90px 20px 90px;
+}
+
+.fo1in>h4 {
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+.fo1in>p {
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    line-height: 36px;
+    letter-spacing: 1px;
+    font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.order4 {
+    margin-top: 10px;
+    background-color: rgb(252, 100, 70);
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 700;
+    padding: 8px 20px 8px 20px;
+    border-radius: 20px;
+}
+
+.order4:hover {
+    transition: 0.2s;
+    background-color: rgb(236, 101, 74);
+}
+
+/* ----------------------------------------------------------------------------------- */
+.order5:hover {
+    transition: 0.2s;
+    background-color: rgb(3, 85, 57);
+}
+
+.order5 {
+    margin-top: 6px;
+    background-color: rgb(0, 98, 65);
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 700;
+    padding: 8px 20px 8px 20px;
+    border-radius: 20px;
+}
+
+.fivediv {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(0, 98, 65);
+}
+
+.five1>img {
+    height: 250px;
+}
+
+.five2in {
+    text-align: center;
+    padding: 10px 90px 20px 90px;
+}
+
+.five2in>h4 {
+    margin-bottom: 10px;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    letter-spacing: 1px;
+    font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.five2in>p {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    line-height: 36px;
+    letter-spacing: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* --------------------------------------------------------------------------------- */
+.six2>img {
+    height: 375px;
+}
+
+.sixdiv {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(225, 252, 205);
+}
+
+.six1 {
+    width: 100%;
+    display: flex;
+    display: inline-block;
+    margin: 0 10px 0 10px;
+
+}
+
+.sixin {
+    text-align: center;
+    padding: 20px 90px 20px 90px;
+}
+
+.sixin>h4 {
+    color: rgb(30, 57, 50);
+    font-size: 24px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+.sixin>p {
+    color: rgb(30, 57, 50);
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    line-height: 36px;
+    letter-spacing: 1px;
+    font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.order6 {
+    margin-top: 10px;
+    background-color: rgb(225, 252, 205);
+    border: 1px solid rgb(30, 57, 50);
+    color: rgb(30, 57, 50);
+    font-size: 16px;
+    font-weight: 700;
+    padding: 8px 20px 8px 20px;
+    border-radius: 20px;
+}
+
+.order6:hover {
+    transition: 0.2s;
+    background-color: rgb(193, 235, 165);
+}
+
+/* ---------------------------------------------------------------- */
+
+.last1 {
+    padding: 60px 310px 20px 310px;
+    border-bottom: 1px solid rgb(163, 163, 163);
+}
+
+.para1>p {
+    text-align: center;
+    font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 24px;
+    font-size: 15px;
+}
+
+.lnk {
+    color: black;
+    text-decoration: none;
+    border-bottom: 2px solid black;
+}
+.lnk:hover{
+    border-bottom: none;
+    transition: 0.3s;
+}
+
+nav .para2>p {
+    text-align: center;
+    font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 24px;
+    font-size: 15px;
+    margin-top: 100px;
+}
+
+.para3>p {
+    text-align: center;
+    font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 24px;
+    font-size: 15px;
+    margin-top: 100px;
+}
+
+.l1 {
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+    margin: 0 10px 0 10px;
+}
+
+.l1>a {
+    font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: rgb(72, 72, 72);
+    padding: 10px;
+    line-height: 25px;
+}
+
+.l1>a:hover {
+    color: black;
+}
+
+.l1>h4 {
+    font-weight: 500;
+    font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 19px;
+    padding: 0 0 0 10px;
+    letter-spacing: 1px;
+}
+
+.last2 {
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    flex-direction: row;
+
+}
+
+.social {
+    border-top: 1px solid rgba(132, 132, 132, 0.6);
+    margin-left: 40px;
+    padding-top: 16px;
+    display: flex;
+    margin-right: 40px;
+    margin-bottom: 10px;
+}
+
+.so>a>img {
+    height: 30px;
+}
+
+.so {
+    margin: 2px;
+}
+
+.so>a {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 100%;
+    transition-duration: 0.6s;
+}
+
+.social>img {
+    padding: 8px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100%;
+}
+
+.so>a:hover {
+    background-color: rgba(42, 45, 41, 0.2);
+}
+
+.privacy {
+    display: flex;
+    margin-left: 24px;
+    margin-bottom: 26px;
+}
+
+.pr{
+    padding-right: 24px;
+    padding-left: 24px;
+    border-right: 1px solid;
+}
+.kr{
+    border-right: none;
+}
+
+.pr>a{
+    border-right: 4px soild black;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: black;
+}
+.pr>a:hover{
+    border-bottom: 1px solid black;
+}
+.kyinj{
+    margin-left: 40px;
+    margin-bottom: 40px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: rgb(97, 97, 97);
+    font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
